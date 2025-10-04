@@ -1,9 +1,0 @@
-{
-  "saved_at": "2025-10-04 15:20:43",
-  "sklearn_version": "1.7.2",
-  "model": "StackingClassifier within Pipeline(StandardScaler -> Stacking)",
-  "classes": {
-    "0": "CONFIRMED",
-    "1": "CANDIDATE"
-  }
-}
