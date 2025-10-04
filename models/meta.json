@@ -1,0 +1,13 @@
+{
+  "saved_at": "2025-10-04 16:58:40",
+  "models": [
+    "random_forest",
+    "adaboost",
+    "extra_trees",
+    "stacking"
+  ],
+  "classes": {
+    "0": "CONFIRMED",
+    "1": "CANDIDATE"
+  }
+}
