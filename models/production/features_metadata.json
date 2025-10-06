@@ -1,0 +1,74 @@
+{
+  "feature_columns": [
+    "koi_period", "koi_period_err1", "koi_period_err2", 
+    "koi_time0bk", "koi_time0bk_err1", "koi_time0bk_err2", 
+    "koi_impact", "koi_impact_err1", "koi_impact_err2", 
+    "koi_duration", "koi_duration_err1", "koi_duration_err2", 
+    "koi_depth", "koi_depth_err1", "koi_depth_err2", 
+    "koi_prad", "koi_prad_err1", "koi_prad_err2", 
+    "koi_teq", 
+    "koi_insol", "koi_insol_err1", "koi_insol_err2", 
+    "koi_model_snr", 
+    "koi_tce_plnt_num", 
+    "koi_steff", "koi_steff_err1", "koi_steff_err2", 
+    "koi_slogg", "koi_slogg_err1", "koi_slogg_err2", 
+    "koi_srad", "koi_srad_err1", "koi_srad_err2", 
+    "ra", "dec", 
+    "koi_kepmag"
+  ],
+  "feature_count": 36,
+  "feature_groups": {
+    "orbital_parameters": [
+      "koi_period", "koi_period_err1", "koi_period_err2",
+      "koi_time0bk", "koi_time0bk_err1", "koi_time0bk_err2",
+      "koi_impact", "koi_impact_err1", "koi_impact_err2"
+    ],
+    "transit_characteristics": [
+      "koi_duration", "koi_duration_err1", "koi_duration_err2",
+      "koi_depth", "koi_depth_err1", "koi_depth_err2",
+      "koi_model_snr"
+    ],
+    "planetary_properties": [
+      "koi_prad", "koi_prad_err1", "koi_prad_err2",
+      "koi_teq",
+      "koi_insol", "koi_insol_err1", "koi_insol_err2"
+    ],
+    "stellar_properties": [
+      "koi_steff", "koi_steff_err1", "koi_steff_err2",
+      "koi_slogg", "koi_slogg_err1", "koi_slogg_err2",
+      "koi_srad", "koi_srad_err1", "koi_srad_err2",
+      "koi_kepmag"
+    ],
+    "positional_data": ["ra", "dec"],
+    "catalog_info": ["koi_tce_plnt_num"]
+  },
+  "feature_descriptions": {
+    "koi_period": "Orbital period (days)",
+    "koi_time0bk": "Time of first transit (BKJD)",
+    "koi_impact": "Impact parameter",
+    "koi_duration": "Transit duration (hours)",
+    "koi_depth": "Transit depth (ppm)",
+    "koi_prad": "Planetary radius (Earth radii)",
+    "koi_teq": "Equilibrium temperature (K)",
+    "koi_insol": "Insolation flux (Earth flux)",
+    "koi_model_snr": "Transit signal-to-noise ratio",
+    "koi_tce_plnt_num": "Planet number in system",
+    "koi_steff": "Stellar effective temperature (K)",
+    "koi_slogg": "Stellar surface gravity (log10(cm/s²))",
+    "koi_srad": "Stellar radius (Solar radii)",
+    "ra": "Right ascension (decimal degrees)",
+    "dec": "Declination (decimal degrees)",
+    "koi_kepmag": "Kepler magnitude"
+  },
+  "model_requirements": {
+    "preprocessing": "StandardScaler normalization required",
+    "missing_values": "Median imputation applied",
+    "data_type": "float64",
+    "input_shape": [null, 36]
+  },
+  "version": "1.0.0",
+  "created_date": "2025-10-05",
+  "compatible_models": [
+    "RandomForest", "ExtraTrees", "AdaBoost", "Stacking"
+  ]
+}

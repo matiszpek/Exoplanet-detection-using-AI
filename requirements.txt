@@ -1,5 +1,40 @@
-pandas 
-numpy 
-matplotlib 
-seaborn 
-scikit-learn
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.24.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Jupyter and Notebook Support
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.20.0
+ipywidgets>=8.0.0
+
+# Data Visualization (Additional)
+plotly>=5.15.0
+bokeh>=3.0.0
+
+# Statistical Analysis
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# Progress Bars and Utilities
+tqdm>=4.65.0
+
+# Optional: For advanced features
+# lightgbm>=3.3.0  # Alternative gradient boosting
+# xgboost>=1.7.0   # Alternative gradient boosting
+# hyperopt>=0.2.7  # Hyperparameter optimization
+
+# Development and Quality
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
