@@ -106,8 +106,7 @@ jupyter notebook
 │   └── TOI_2025.10.04_05.29.26.csv
 ├── notebooks/                     # Jupyter notebooks
 │   ├── 01_exoplanet_detection_binary.ipynb      # Binary classification model
-│   ├── 02_false_positive_detection.ipynb        # False positive detection
-│   └── 03_data_visualization.ipynb              # Data exploration and visualization
+│   └── 02_false_positive_detection.ipynb        # False positive detection
 ├── models/                        # Trained models and artifacts
 │   ├── production/               # Final production models
 │   ├── experiments/             # Experimental models
@@ -131,18 +130,14 @@ jupyter notebook
 - **Model training** with multiple algorithms
 - **Performance evaluation** and comparison
 - **Model persistence** for deployment
+- **Interactive plots** and data analysis
 
 ### 2. False Positive Detection (`02_false_positive_detection.ipynb`)
 - **Advanced classification** incorporating false positives
 - **Stratified evaluation** by object type
 - **Threshold optimization** for operational deployment
 - **Detailed performance** analysis by subgroup
-
-### 3. Data Visualization (`03_data_visualization.ipynb`)
-- **Interactive visualizations** of exoplanet characteristics
-- **Statistical analysis** of the dataset
-- **Feature importance** analysis
-- **Model interpretation** plots
+- **Interactive visualizations** and model interpretation
 
 ## 🎯 Results
 

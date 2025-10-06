@@ -20,7 +20,6 @@ Exoplanet-detection-using-AI/
 ├── notebooks/                         # Jupyter notebooks
 │   ├── 01_exoplanet_detection_binary.ipynb           # Binary classification
 │   ├── 02_false_positive_detection.ipynb             # False positive handling
-│   ├── 03_data_visualization.ipynb                   # Data exploration
 │   └── archived/                      # Previous versions
 │       ├── exoplanet_ml_final_fast.ipynb
 │       ├── exoplanet_ml_final.ipynb
@@ -85,8 +84,7 @@ Contains astronomical datasets from NASA missions:
 
 Organized Jupyter notebooks for different aspects of the project:
 - **Binary Classification**: Main exoplanet vs candidate classification
-- **False Positive Detection**: Enhanced classification including false positives
-- **Data Visualization**: Exploratory data analysis and results visualization
+- **False Positive Detection**: Enhanced classification including false positives (includes visualization and analysis)
 - **Archived**: Historical notebooks and alternative implementations
 
 ### Source Code (`src/`)
@@ -115,7 +113,7 @@ Technical documentation:
 
 ### Development Workflow
 
-1. **Data Exploration**: Start with `notebooks/03_data_visualization.ipynb`
+1. **Data Exploration**: Start with the exploration sections in `notebooks/01_exoplanet_detection_binary.ipynb`
 2. **Binary Classification**: Implement basic classification in `notebooks/01_exoplanet_detection_binary.ipynb`
 3. **Advanced Classification**: Enhance with false positive detection in `notebooks/02_false_positive_detection.ipynb`
 4. **Modular Development**: Extract reusable code to `src/` modules
